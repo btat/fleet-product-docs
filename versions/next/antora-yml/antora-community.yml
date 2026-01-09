@@ -1,4 +1,4 @@
-name: fleet
+name: ROOT
 title: Fleet
 version: next
 display_version: 'Next'
@@ -9,4 +9,3 @@ asciidoc:
     build-type: community
 nav:
   - modules/nav.adoc
-

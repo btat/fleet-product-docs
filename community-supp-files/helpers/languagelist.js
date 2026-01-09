@@ -1,7 +1,9 @@
 'use strict'
 
 const modules = new Set()
-const extractModuleFromURL = (url) => url.split('/')[3] || null
+
+// For community docs use 2 because the component name is removed
+const extractModuleFromURL = (url) => url.split('/')[2] || null
 
 const languagesList = [
   { id: 'en', image: 'engFlag.svg', class: 'english', label: 'English' },
